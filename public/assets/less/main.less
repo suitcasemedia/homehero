@@ -1,0 +1,82 @@
+// Bootstrap
+@import "_bootstrap";
+
+// Variable overrides and custom variables
+// @import "_variables";
+
+
+
+
+@import "mixins";            // Post styling
+@import "freelancer";            // Post styling
+@import "variables";            // Post styling
+
+
+
+#success{
+	display:none;
+	
+}
+.modal-content{
+	
+
+	background-color:@brand-success;
+
+}
+.modal-body{
+	
+
+	background-color:#fff;
+
+}
+
+.close-modal{
+	background-color:#fff;
+	}
+
+
+
+
+#stage {
+			top: 0px;
+			left: 0px;
+			z-index: 100;
+		}
+		.stage {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			min-width: 900px;
+			height: 359px;
+			overflow: hidden;
+		}
+		#bg {
+			background: #aedfe5 url(../images/sky1.png) 0 0 repeat-x;
+		}
+		#clouds {
+			background: transparent url(../images/cloud.png) 305px 102px repeat-x;
+		}
+		#hill2 {
+			background: transparent url(../images/london.png) 0 258px repeat-x;
+		}
+		#hill1 {
+			background: transparent url(../images/alternative-london-skyline-larger.png) 0 104px repeat-x;
+		}
+		#balloons {
+                        position: relative;
+                        left: 720px;
+			background: transparent url(../images/balloons.png) 0 0 repeat-y;
+		}
+		#bird {
+			// background: transparent url(../images/bird-forward-back.png) 0 0 no-repeat;
+			background: transparent url(../images/flying-builder.svg) 0 0 no-repeat;
+			position: absolute;
+			top: 150px;
+			left: 65px;
+			width: 380px;
+			height: 223px;
+			z-index: 2000;
+			cursor: pointer;
+			}
+
