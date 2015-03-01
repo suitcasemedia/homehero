@@ -1,3 +1,10 @@
+
+<div class="vspace50">
+
+
+</div>
+
+<div class="container">
 <h1>Login</h1>
 
 <form action="login/run" method="post">
@@ -9,3 +16,5 @@
 
 
 </form>
+
+</div>

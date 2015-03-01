@@ -6913,6 +6913,15 @@ footer .footer-below {
   opacity: 0;
   display: none;
 }
+table {
+  background: #ffffff;
+}
+.vspace50 {
+  height: 50px;
+}
+.vspace100 {
+  height: 100px;
+}
 #success {
   display: none;
 }
@@ -6925,18 +6934,24 @@ footer .footer-below {
 .close-modal {
   background-color: #fff;
 }
+#message1 {
+  width: 100%;
+  color: #ffffff;
+  background: #18bc9c;
+  min-width: 900px;
+}
 #stage {
-  top: 0px;
+  top: 100px;
   left: 0px;
   z-index: 100;
 }
 .stage {
   position: absolute;
-  top: 0;
+  top: 0px;
   left: 0;
   width: 100%;
   min-width: 900px;
-  height: 359px;
+  height: 559px;
   overflow: hidden;
 }
 #bg {
@@ -6959,7 +6974,7 @@ footer .footer-below {
 #bird {
   background: transparent url(../images/flying-builder.svg) 0 0 no-repeat;
   position: absolute;
-  top: 150px;
+  top: 250px;
   left: 65px;
   width: 380px;
   height: 223px;

@@ -11,6 +11,16 @@
 @import "freelancer";            // Post styling
 @import "variables";            // Post styling
 
+table{
+	
+	background: #ffffff;
+}
+.vspace50{
+			height:50px;
+		}
+.vspace100{
+		height:100px;
+		}
 
 
 #success{
@@ -35,22 +45,36 @@
 	}
 
 
+#message1{
+	
+	
+	width:100%;
+	color: #ffffff;
+	background: @brand-success;
+	min-width:900px;
+	
 
-
+}
+.modal-body{
+	
+	//background-color: @brand-success;
+	//color:#ffffff;
+}
 #stage {
-			top: 0px;
+			top: 100px;
 			left: 0px;
 			z-index: 100;
 		}
+
 		.stage {
-			position: absolute;
-			top: 0;
-			left: 0;
-			width: 100%;
-			min-width: 900px;
-			height: 359px;
-			overflow: hidden;
-		}
+				position: absolute;
+				top: 0px;
+				left: 0;
+				width: 100%;
+				min-width: 900px;
+				height: 559px;
+				overflow: hidden;
+				}
 		#bg {
 			background: #aedfe5 url(../images/sky1.png) 0 0 repeat-x;
 		}
@@ -72,7 +96,7 @@
 			// background: transparent url(../images/bird-forward-back.png) 0 0 no-repeat;
 			background: transparent url(../images/flying-builder.svg) 0 0 no-repeat;
 			position: absolute;
-			top: 150px;
+			top: 250px;
 			left: 65px;
 			width: 380px;
 			height: 223px;

@@ -1,6 +1,6 @@
 
 <?php
-define('URL','http://127.0.0.1/tradesman/');
+define('URL','http://localhost/tradesman/');
 // always provide a trailing slash(/) AFTER a path
 define("LIBS", "libs/");
 

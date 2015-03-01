@@ -41,7 +41,7 @@ class Login_Model extends Model{
 			Session::set('role', $data['role']);
 			Session::set('loggedIn',true);
 			Session::set('userid',$data['userid']);
-			header('location:../dashboard');
+			header('location:'.URL.'admin');
 		}else{
 
 			//show an error

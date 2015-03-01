@@ -63,11 +63,18 @@ class Database extends PDO
 
 		}
 
- 
 
 
 		
 		$sth->execute();
+
+		/* Provoke an error -- bogus SQL syntax */
+
+/*
+ if (!$sth->execute()) {
+    echo "\nPDO::errorInfo():\n";
+    print_r($sth->errorInfo());
+}*/
 		 
 
 	}

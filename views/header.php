@@ -89,7 +89,7 @@ END OF CSS AND JS
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#page-top">homehero.london</a>
+                <a class="navbar-brand" href="<?php echo URL ?>">homehero.london</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -100,7 +100,7 @@ END OF CSS AND JS
                     </li>
                     
                     <li class="page-scroll">
-                        <a href="#about">Whats an emergency?</a>
+                        <a href="<?php echo URL ?>#about">Whats an emergency?</a>
                     </li> 
                     <li class="page-scroll">
                         <a href="#about">Pricing</a>

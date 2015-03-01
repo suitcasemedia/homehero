@@ -12,7 +12,7 @@ class Auth
 		if ($logged == false) {
 			session_destroy();
 
-			header('location:../login');
+			header('location:'.URL.'login');
 			exit();
 		}
 

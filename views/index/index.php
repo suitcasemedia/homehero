@@ -27,7 +27,7 @@
         </div>
 
         <div class="col-lg-4 col-lg-offset-0">
-         <img src="http://127.0.0.1/tradesman/public/assets/images/superbuilder1.svg" alt="superbuilder">
+         <img src="http://www.suitcasedev.co.uk/tradesman/public/assets/images/superbuilder1.svg" alt="superbuilder">
 
      </div>
     
@@ -99,7 +99,9 @@
             </ul>
                 </div>
             <div class="col-lg-8 col-lg-offset-2 text-center">
-                
+                <a href="#portfolioModal2"  data-toggle="modal" class="btn btn-lg btn-outline">
+                    <i class="fa fa-download"></i> Request a hero now
+                </a>
             </div>
         </div>
     </div>
@@ -209,46 +211,46 @@
                     <div class="modal-body">
                      <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
                      <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
-                     <form name="sentMessage" id="contactForm" novalidate>
+                     <form name="sentMessage" id="contactForm" action="<?php echo URL; ?>api/xhrInsert"  novalidate>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>Name</label>
-                                <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
+                                <input type="text" class="form-control" placeholder="Name" id="name" name="name" required data-validation-required-message="Please enter your name.">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>Postcode</label>
-                                <input type="postcode" class="form-control" placeholder="Postcode" id="email" required data-validation-required-message="Please enter your postcode.">
+                                <input type="postcode" class="form-control" placeholder="Postcode" name="postcode" id="postcode" required data-validation-required-message="Please enter your postcode.">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>Address</label>
-                                <input type="address" class="form-control" placeholder="Address" id="address" required data-validation-required-message="Please enter your address.">
+                                <input type="address" class="form-control" placeholder="Address" name="address" id="address" required data-validation-required-message="Please enter your address.">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>Email Address</label>
-                                <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
+                                <input type="email" class="form-control" placeholder="Email Address"  name="email" id="email" required data-validation-required-message="Please enter your email address.">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>Phone Number</label>
-                                <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
+                                <input type="tel" class="form-control" placeholder="Phone Number" name="phone" id="phone" required data-validation-required-message="Please enter your phone number.">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>Summary of emergency</label>
-                                <textarea rows="1" class="form-control" placeholder="Summary of emergency" id="summary" required data-validation-required-message="Summary of emergency."></textarea>
+                                <textarea rows="1" class="form-control" placeholder="Summary of emergency" name="summary" id="summary" required data-validation-required-message="Summary of emergency."></textarea>
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
@@ -262,7 +264,10 @@
                     </form> 
 
 
-                    <div id="success">
+                    <div id="message1">
+                    </div>
+
+                        <div id="success">
 
 
                         <div id="stage" class="stage">
