@@ -22,10 +22,10 @@ http://www.suitcasedev.co.uk/tradesman/admin
 TECHNOLOGY SUMMARY:
 
 FRONT END:
- -grunt 
- -less
- -bootstrap
- -Jquery
+ - grunt 
+ - less
+ - bootstrap
+ - Jquery
 
 Grunt file is very nicely set up so that dev environment shows uncompressed version of js and css to allow continual and production shows compressed versions -
 see /views/header.php
