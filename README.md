@@ -9,7 +9,7 @@ NOTE- THIS WEBSITE IS NOT READY FOR PRODUCTION. IT'S JUST A BASIC DEMO TO SHOW:
 - AN UNDERSTANDING OF THE MVC PATTERN
 - FRONT END WEB DEVELOPMENT SKILLS
 
-View live demo here: 
+VIEW LIVE DEMO HERE: 
 
 http://www.suitcasedev.co.uk/tradesman/
 
@@ -17,6 +17,8 @@ Place an order to see animation:
 
 admin panel for viewing/managing orders here:
 http://www.suitcasedev.co.uk/tradesman/admin
+  - username: admin
+  - password: admin
 
 
 TECHNOLOGY SUMMARY:
