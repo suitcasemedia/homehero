@@ -13,8 +13,6 @@ VIEW LIVE DEMO HERE:
 
 http://www.suitcasedev.co.uk/tradesman/
 
-Place an order to see animation:
-
 admin panel for viewing/managing orders here:
 http://www.suitcasedev.co.uk/tradesman/admin
   - username: admin
@@ -24,6 +22,7 @@ http://www.suitcasedev.co.uk/tradesman/admin
 TECHNOLOGY SUMMARY:
 
 FRONT END:
+PLEASE PLACE AN ORDER(REQUEST A HERO) TO SEE JQUERY ANIMATIONS ETC
  - grunt 
  - less
  - bootstrap
