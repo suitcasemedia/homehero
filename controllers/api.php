@@ -25,7 +25,12 @@ class Api extends Controller
 	}
 
 function Index(){
+	$this->view->title = 'Admin' ;
+
+	$this->view->render('header') ;
 	
+	$this->view->render('footer') ;
+		
 	}
 
 
