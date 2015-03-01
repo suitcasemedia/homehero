@@ -22,10 +22,10 @@ http://www.suitcasedev.co.uk/tradesman/admin
 TECHNOLOGY SUMMARY:
 
 FRONT END:
-grunt 
-less
-bootstrap
-Jquery
+ -grunt 
+ -less
+ -bootstrap
+ -Jquery
 
 Grunt file is very nicely set up so that dev environment shows uncompressed version of js and css to allow continual and production shows compressed versions -
 see /views/header.php
@@ -34,10 +34,10 @@ BACK END:
 DIY home made MVC PHP framework
 
 ORDERING SYSTEM:
-`    Admin panel for administrator:
-            jquery/ajax 
-     Order success page for customer 
-            animation done in bootstrap modal using spritely.js
+`   - Admin panel for administrator:
+            -jquery/ajax 
+     -Order success page for customer 
+            -animation done in bootstrap modal using spritely.js
 
 GRAPHICS -> IMAGES
 Made in inkscape and Gimp
